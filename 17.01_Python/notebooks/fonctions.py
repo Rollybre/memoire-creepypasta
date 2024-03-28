@@ -51,9 +51,6 @@ def longueur_phrase(txt):
     phrases=txt.split('.')
     return np.mean([len(i.split(' ')) for i in phrases])
 
-def type_token_ratio()
-
-
 def lemmatizer(txt) : 
     nlp = spacy.load('fr_core_news_md')
     doc = nlp(self.txt)
